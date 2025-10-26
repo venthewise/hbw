@@ -451,7 +451,7 @@
           const downloadUrl = URL.createObjectURL(blob);
           const a = document.createElement('a');
           a.href = downloadUrl;
-          a.download = 'permit_report_clearwater.csv';
+          a.download = 'permit_report_latest.csv';
           a.click();
           URL.revokeObjectURL(downloadUrl);
           statusEl.className = '';
